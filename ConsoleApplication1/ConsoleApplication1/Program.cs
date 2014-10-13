@@ -11,8 +11,17 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
+            Console.WriteLine("...");
+            string cadena = (Console.ReadLine());
 
+            for (int i = 0; i <= cadena.Length - 1; i++)
+            {
+             char c = cadena[i];
 
+             Console.WriteLine(c);
+
+            }
+            Console.Read();
         }
     }
 }
